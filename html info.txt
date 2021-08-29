@@ -1,0 +1,3 @@
+kmo1theory - kmo1차 이론
+
+파일 뒤에 붙는 숫자는 몇강인지를 나타냄 ex) kmo1theory1 - 1차이론의 1강

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Delight Workspace</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <ul class="nav">
+          <li class="item">
+            <a href="home.html">홈</a>
+          </li>
+
+          <li class="item">
+            <a href="classroom.html">강의실</a>
+          </li>
+
+          <li class="item">
+            <a href="https://cafe.naver.com/delightolimcafe">카페</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="content">
+      <div class="header">Delight Olim</div>
+      <p>모두의 행복을 위한 교육 Delight Edu</p>
+    </div>
+
+        <!--image slider start-->
+    <div class="slider" align="center">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+          <img src="image/mainpage01.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="image/mainpage02.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="image/mainpage03.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="image/mainpage04.png" alt="">
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+    <div class="bottom">
+      <span><sapn>
+    </div>
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+
+  </body>
+</html>

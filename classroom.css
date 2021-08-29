@@ -1,0 +1,89 @@
+
+.content{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #202020;
+  z-index: -1;
+  text-align: center;
+}
+.content p{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+.lecture-card-container {
+  position: absolute;
+  height: 70%;
+  top: 70%;
+  left: 50%;
+  width: 900px;
+  transform: translate(-50%, -50%);
+}
+
+
+.card1{ 
+  position: absolute;
+  top: 0%; left: 0%;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  background: url("image/kmo1theory.png"); 
+  background-position: 0% 0%;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.5); 
+}
+
+.card2{ 
+  position: absolute;
+  top: 0%; right: 0%;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  background: url("image/kmo1theory.png"); 
+  background-position: 0% 0%;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.5); 
+}
+
+
+.lower_part {
+  position: absolute;
+  bottom: 0%;
+  border-top: 1px solid rgba(0,0,0,0.2);
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;  
+  background: white;
+}
+
+.lecture-description {
+  margin: 5% 8%;
+  font-family: "Roboto";
+}
+
+.lecture-description h3, .lecture-description p {
+  margin: 0;
+  margin-bottom: 1%;
+}
+
+.lecture-button{
+  margin-top: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.lecture-button:hover{
+  background-color: #F6F6F6;
+
+}
+.lecture-description div{
+  margin-top: 30px;
+}
