@@ -1,0 +1,115 @@
+.content{
+  position: absolute;
+  height: 150px;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #202020;
+  z-index: -1;
+  text-align: center;
+}
+.content p{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 27px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+
+.navbar {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  transition: 0.5s ease;
+  font-weight: bold;
+}
+
+.navbar .nav {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+}
+
+.navbar .nav .item {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  font-weight: 300;
+  line-height: 80px;
+  margin-left: 20px;
+  transition: 0.5s ease;
+}
+
+.navbar .nav .item .contact {
+  display: inline-block;
+  background-color: #ffffff;
+  height: 40px;
+  line-height: 30px;
+  padding: 5px;
+  border-radius: 2px;
+  transition: 0.5s ease;
+  font-weight: bold;
+}
+
+.navbar .nav .item a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.blank-space{
+  margin-top: 200px;
+}
+
+.lecture-list{
+  margin-top: 50px;
+}
+
+.lesson-list{
+  margin: 10px;
+}
+.alert.alert-success{
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 24px;
+  width: 700px;
+  height: 70px;
+  text-align: left;
+  box-shadow: 0 0 0 2px #1B1046;
+}
+
+.lesson-name{
+  position: relative;
+  left: 5%;
+  top: 30%;
+}
+
+.move-to-lesson{
+  text-decoration: none;
+}
+
+.download-button{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 0 2px #1B1046;
+}
+
+.download-button:hover{
+  color: #ffffff;
+  background-color: #000000;
+}
